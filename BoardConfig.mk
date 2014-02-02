@@ -104,14 +104,15 @@ BOARD_SEPOLICY_DIRS := \
 	device/samsung/manta/sepolicy
 
 BOARD_SEPOLICY_UNION := \
-	file_contexts \
-	genfs_contexts \
-	adbd.te \
-	app.te \
-	device.te \
-	domain.te \
-	gpsd.te \
-	file.te \
-	mediaserver.te \
-	surfaceflinger.te \
-	system.te
+    file_contexts \
+    genfs_contexts \
+    adbd.te \
+    app.te \
+    device.te \
+    domain.te \
+    gpsd.te \
+    file.te \
+    mediaserver.te \
+    surfaceflinger.te \
+    system.te \
+    vold.te
